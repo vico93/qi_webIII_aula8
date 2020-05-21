@@ -14,7 +14,7 @@ public class Main {
 
         // Pede e lê cada dado - atributo
         System.out.print("Digite o nome do aluno: ");
-        a1.nome = entrada.next();
+        a1.nome = entrada.nextLine();
 
         System.out.print("Digite a primeira nota de " + a1.nome + ": ");
         a1.nota1 = entrada.nextDouble();
@@ -26,6 +26,7 @@ public class Main {
         a1.nota3 = entrada.nextDouble();
 
         // Invoca os métodos e mostra resultados
-        System.out.println("Média do trimestre de " + a1.nome + ": " + a1.calcularMedia());
+        System.out.println(a1);
+        System.out.println("Média do trimestre de " + a1.nome + ": " + String.format("%.2f", a1.calcularMedia()));
     }
 }
