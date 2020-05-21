@@ -18,6 +18,7 @@ public class Main {
 
         // Invoca os métodos e mostra resultados
         System.out.println("\n\n-----------------------------------------------------------");
-        System.out.println("Temperatura em Fahrenheit: " + t1.converterTemperatura() + " °F");
+        System.out.println(t1);
+        System.out.println("Temperatura em Fahrenheit: " + String.format("%.1f", t1.converterTemperatura()) + " °F");
     }
 }
