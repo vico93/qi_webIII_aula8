@@ -20,6 +20,7 @@ public class Main {
         r1.altura = entrada.nextDouble();
 
         // Invoca os métodos e mostra resultados
-        System.out.println("A área do retângulo é: " + r1.calcularArea());
+        System.out.println(r1);
+        System.out.println("A área do retângulo é: " + String.format("%.2f", r1.calcularArea()));
     }
 }
