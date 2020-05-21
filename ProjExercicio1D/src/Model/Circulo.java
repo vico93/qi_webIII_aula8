@@ -11,4 +11,10 @@ public class Circulo {
     public double calcularPerimetro(){
         return (2 * Math.PI) * this.raio;
     }
+
+    // toString
+    @Override
+    public String toString() {
+        return "O raio informado foi: " + String.format("%.2f", raio);
+    }
 }

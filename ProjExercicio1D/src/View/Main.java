@@ -17,7 +17,8 @@ public class Main {
         c1.raio = entrada.nextInt();
 
         // Invoca os métodos e mostra resultados
-        System.out.println("A área do círculo de raio " + c1.raio + " é igual a " + c1.calcularArea());
-        System.out.println("O perímetro do círculo de raio " + c1.raio + " é igual a " + c1.calcularPerimetro());
+        System.out.println(c1);
+        System.out.println("A área do círculo é igual a " + String.format("%.2f", c1.calcularArea()));
+        System.out.println("O perímetro do círculo é igual a " + String.format("%.2f", c1.calcularPerimetro()));
     }
 }
