@@ -18,7 +18,7 @@ public class Main {
 
         // Invoca os métodos e mostra resultados
         System.out.println("\n\n-----------------------------------------------------------");
-        System.out.println("Preço de custo do veículo: " + corolla.custoFabrica);
-        System.out.println("Total com impostos e lucro: " + corolla.calcularPrecoFinal());
+        System.out.println(corolla);
+        System.out.println("Total com impostos e lucro: R$ " + String.format("%.2f", corolla.calcularPrecoFinal()));
     }
 }
