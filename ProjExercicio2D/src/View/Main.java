@@ -28,8 +28,8 @@ public class Main {
 
         // Invoca os métodos e mostra resultados
         System.out.println("\n\n-----------------------------------------------------------");
-        System.out.println("Vendedor: " + v1.nome);
-        System.out.println("Valor da comissão: " + v1.calcularComissao());
-        System.out.println("Salário total: " + v1.calcularSalarioTotal());
+        System.out.println(v1);
+        System.out.println("Valor da comissão: R$ " + String.format("%.2f", v1.calcularComissao()));
+        System.out.println("Salário total: R$ " + String.format("%.2f", v1.calcularSalarioTotal()));
     }
 }
