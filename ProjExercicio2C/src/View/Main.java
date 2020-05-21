@@ -25,9 +25,9 @@ public class Main {
 
         // Invoca os métodos e mostra resultados
         System.out.println("\n\n-----------------------------------------------------------");
-        System.out.println("Produto: " + p1.nome);
-        System.out.println("Total à pagar: R$ " + p1.calcularTotalPagar());
-        System.out.println("Total com desconto: R$ " + p1.calcularTotalComDesconto());
-        System.out.println("Total com juros: R$ " + p1.calcularTotalComJuros());
+        System.out.println(p1);
+        System.out.println("Total à pagar: R$ " + String.format("%.2f", p1.calcularTotalPagar()));
+        System.out.println("Total com desconto: R$ " + String.format("%.2f", p1.calcularTotalComDesconto()));
+        System.out.println("Total com juros: R$ " + String.format("%.2f", p1.calcularTotalComJuros()));
     }
 }
