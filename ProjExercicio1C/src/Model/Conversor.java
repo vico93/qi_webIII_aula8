@@ -14,4 +14,10 @@ public class Conversor {
     public int converterDias(){
         return this.anos * 365;
     }
+
+    // toString
+    @Override
+    public String toString() {
+        return "Nº de anos informados: " + anos;
+    }
 }

@@ -17,6 +17,7 @@ public class Main {
         c1.anos = entrada.nextInt();
 
         // Invoca os métodos e mostra resultados
+        System.out.println(c1);
         System.out.println(c1.anos + " anos equivalem à: " + c1.converterMeses() + " meses, " + c1.converterSemanas() + " semanas ou " + c1.converterDias() + " dias!");
     }
 }
