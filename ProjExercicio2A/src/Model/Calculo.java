@@ -10,4 +10,12 @@ public class Calculo {
     public double calcularProduto(){
         return this.valor1 * this.valor2 * this.valor3;
     }
+
+    // toString
+    @Override
+    public String toString() {
+        return "Valor 1: " + valor1 +
+                "\nValor 2: " + valor2 +
+                "\nValor 3: " + valor3;
+    }
 }

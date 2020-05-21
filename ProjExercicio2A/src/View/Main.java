@@ -25,6 +25,7 @@ public class Main {
         c1.valor3 = entrada.nextDouble();
 
         // Invoca os métodos e mostra resultados
+        System.out.println(c1);
         System.out.println("O produto dos valores é: " + c1.calcularProduto());
 
     }
