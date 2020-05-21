@@ -16,4 +16,11 @@ public class Produto {
     public double calcularTotalComJuros(){
         return this.calcularTotalPagar() * 1.25; // 100% + 25% = 125% do valor total
     }
+    // toString
+    @Override
+    public String toString() {
+        return "Nome: " + nome +
+                "\nValor: R$ " + String.format("%.2f", valor) +
+                "\nQuantidade: " + quantidade;
+    }
 }
