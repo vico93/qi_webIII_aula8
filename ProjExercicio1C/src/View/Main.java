@@ -14,10 +14,10 @@ public class Main {
 
         // Pede e lê cada dado - atributo
         System.out.print("Digite a quantidade de anos: ");
-        c1.anos = entrada.nextInt();
+        c1.setAnos(entrada.nextInt());
 
         // Invoca os métodos e mostra resultados
         System.out.println(c1);
-        System.out.println(c1.anos + " anos equivalem à: " + c1.converterMeses() + " meses, " + c1.converterSemanas() + " semanas ou " + c1.converterDias() + " dias!");
+        System.out.println("...que equivalem à: " + c1.converterMeses() + " meses, " + c1.converterSemanas() + " semanas ou " + c1.converterDias() + " dias!");
     }
 }

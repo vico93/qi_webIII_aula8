@@ -2,7 +2,14 @@ package Model;
 
 public class Conversor {
     // Atributos
-    public int anos;
+    private int anos;
+    // Manipuladores dos atributos
+    public int getAnos() {
+        return anos;
+    }
+    public void setAnos(int anos) {
+        this.anos = anos;
+    }
 
     // Métodos
     public int converterMeses(){
