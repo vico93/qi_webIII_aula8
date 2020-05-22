@@ -14,10 +14,10 @@ public class Main {
 
         // Pede e lê cada dado - atributo
         System.out.print("Digite a base do retângulo: ");
-        r1.base = entrada.nextDouble();
+        r1.setBase(entrada.nextDouble());
 
         System.out.print("Digite a altura do retângulo: ");
-        r1.altura = entrada.nextDouble();
+        r1.setAltura(entrada.nextDouble());
 
         // Invoca os métodos e mostra resultados
         System.out.println(r1);

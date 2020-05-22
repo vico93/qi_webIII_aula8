@@ -2,8 +2,21 @@ package Model;
 
 public class Retangulo {
     // Atributos
-    public double altura;
-    public double base;
+    private double altura;
+    private double base;
+    // Manipuladores de atributos
+    public double getAltura() {
+        return altura;
+    }
+    public void setAltura(double altura) {
+        this.altura = altura;
+    }
+    public double getBase() {
+        return base;
+    }
+    public void setBase(double base) {
+        this.base = base;
+    }
 
     // Métodos
     public double calcularArea(){
