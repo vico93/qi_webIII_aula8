@@ -2,7 +2,14 @@ package Model;
 
 public class Circulo {
     // Atributos
-    public double raio;
+    private double raio;
+    // Manipuladores dos atributos
+    public double getRaio() {
+        return raio;
+    }
+    public void setRaio(double raio) {
+        this.raio = raio;
+    }
 
     // Métodos
     public double calcularArea(){

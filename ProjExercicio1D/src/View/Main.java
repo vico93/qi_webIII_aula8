@@ -14,7 +14,7 @@ public class Main {
 
         // Pede e lê cada dado - atributo
         System.out.print("Digite o raio do círculo: ");
-        c1.raio = entrada.nextInt();
+        c1.setRaio(entrada.nextInt());
 
         // Invoca os métodos e mostra resultados
         System.out.println(c1);
